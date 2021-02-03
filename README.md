@@ -97,7 +97,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		<br />
 		<li>Add the ability to sort the Employees by the following criteria:
 			<Details> 
-				<Summary>Fields and Types of <b>Class</b> <b><i>Sort</i></b> </Summary>
+				<Summary>Methods of <b>Class</b> <b><i>Sort</i></b> </Summary>
 				<ul>
 					<li> Name, sort the employees by alphabetical order. </li>
 					<br />
