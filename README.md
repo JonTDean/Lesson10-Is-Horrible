@@ -1,6 +1,6 @@
-# Lesson10 Is Horrible
+# To Whomever is Reading this
 
-Fix this lesson please. 
+Fix this lesson for all that is holy. 
 
 <ins>Reasons Why</ins>:
 
