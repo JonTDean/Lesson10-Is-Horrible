@@ -22,8 +22,10 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 ### Part 1 : Abysmal Mess
 
 1. Create a Program Named *FinalProject*. Rename the File to *ContractorPayrollDemo*. Rename the Class *FinalProject* to *ContractorPayrollDemo*
-
-	<img src="https://i.imgur.com/EyaFG7m.png" />
+	<Details> 
+		<Summary> Image describing what is being asked. </Summary>
+			<img src="https://i.imgur.com/EyaFG7m.png" />
+	<Details> 
 
 2. Inside of `ContractorPayrollDemo/Program.cs` Create a Class called Employee.
 
