@@ -98,7 +98,7 @@ Create a program named ContractorPayrollDemo2 so that after the initial 10 Emplo
 
 	3. Allow the user to pick which Employee to display.
 
-		* We can do the Employee Display with a technique called Pagination using the [.Skip() and .Take](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/return-or-skip-elements-in-a-sequence?redirectedfrom=MSDN) 
+		* We can do the Employee Display with a technique called Pagination using the [.Skip() and .Take()](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/return-or-skip-elements-in-a-sequence?redirectedfrom=MSDN) 
 
 	4. Display the Employee Information when the User gives a Selection.
 	
