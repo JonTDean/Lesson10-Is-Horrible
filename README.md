@@ -21,7 +21,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 <h2> Revised - AN ACTUAL SOFTWARE DESIGN SHEET </h2>
 
 <div className="Part_One">
-	<h3>Part 1 : Abysmal Mess</h3>
+	<h3><ins>Part 1 : Abysmal Mess</ins></h3>
 	<br/>
 	<ol>
 		<li> 
@@ -85,8 +85,8 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		</li>
 </div>
 <br />
-<div>
-	<h3> Part 2 </h3>
+<div className="Part_Two">
+	<h3><ins>Part 2</ins></h3>
 	<ol>
 		<br />
 		<li>Let's create a new file inside of our project by clicking <code>add -> New File -> .net CLI</code> and let's name it <code>ContractorPayrollDemoSort</code>.</li>
