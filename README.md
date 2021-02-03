@@ -1,7 +1,12 @@
-# Lesson10-Is-Horrible
-Fix this please
+# Lesson10 Is Horrible
 
-Any text that looks like `this` is a comment from myself.
+Fix this lesson please. 
+
+__Reasons Why__:
+
+1. Everytime I read this lesson I question my existence.
+
+2. Any text that looks like `this` is a comment from myself.
 
 -------
 
