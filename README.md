@@ -45,11 +45,11 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 					<br />
 					<li> A Field with a Type of <code>String</code> named <code>stateName</code>. Give this a Getter/Setter. </li>
 					<br />
-					<li> A Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value in the default constructor, using the <code>ratePerHour</code> and the <code>numberOfHoursWorked</code> as reference. </li>
+					<li> A Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value at instantiation, using the product of <code>ratePerHour</code> and the <code>numberOfHoursWorked</code>. </li>
 					<br />
-					<li> A Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value in the default constructor, using the <code>stateName</code> as reference. </li>
+					<li> A Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value at instantiation, using the <code>stateName</code> to refer to the API from Taxee. </li>
 					<br />
-					<li> A Read Only Field with a Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value in the default constructor, using the <code>payCheck</code> and <code>currentTaxRate</code> as reference. </li>
+					<li> A Read Only Field with a Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value at instantiation, use the product of <code>payCheck</code> and <code>currentTaxRate</code>. </li>
 					<br />
 				</ul>
 			</Details>
