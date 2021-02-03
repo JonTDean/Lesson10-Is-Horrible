@@ -56,12 +56,12 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		</li>
 		<br/>
 		<li> 
-			<p>In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages developing on a *Commodore 64*) let's use this site and connect to it's [API service](https://taxee.io/dashboard).</p>
+			<p>In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages) let's use this site and connect to it's <a href="https://taxee.io/dashboard">API service</a>.</p>
 		</li>
 		<br/>
 		<br/>
 		<li>
-			<p>Now since this is a Web Development class, learning how to fetch an API should be one of the first things we learn after the basics. If you want to read up on how to retreive data from an exposed API [go here for fetch in .net](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client). Learning to read the documentation is necessary as a developer skill.</p>
+			<p>Now since this is a Web Development class, learning how to fetch an API should be one of the first things we learn after the basics. If you want to read up on how to retreive data from an exposed API <a href="https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client">go here for fetch in .net</a>. Learning to read the documentation is necessary as a developer skill.</p>
 		</li>
 		<br/>
 		<li>
