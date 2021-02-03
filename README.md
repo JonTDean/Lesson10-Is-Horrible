@@ -12,10 +12,12 @@ Fix this lesson please.
 
 -------
 
+For my thoughts on the horrible Original design here is the [Text for that](https://github.com/JonTDean/Lesson10-Is-Horrible/blob/main/OriginalCriticism.md)
+
+----------
+
 ## Lesson 10 Final Project
 
-For my thoughts on the horrible Original design here is the [Text for that](https://github.com/JonTDean/Lesson10-Is-Horrible/blob/main/OriginalCriticism.md)
-----------
 
 ### Revised - AN ACTUAL SOFTWARE DESIGN SHEET
 
