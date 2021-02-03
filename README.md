@@ -6,7 +6,9 @@ __Reasons Why__:
 
 1. Everytime I read this lesson I question my existence.
 
-2. Any text that looks like `this` is a comment from myself.
+2. It's just bad bro. The person who wrote this genuinely didn't care about the lessons. Almost as if you stole this from the internet, hmmmm.
+
+`Disclaimer`: Any text that looks like `this` is a comment from myself.
 
 -------
 
