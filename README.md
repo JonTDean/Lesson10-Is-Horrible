@@ -26,26 +26,27 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 	<img src="https://i.imgur.com/EyaFG7m.png" />
 
 2. Inside of `ContractorPayrollDemo/Program.cs` Create a Class called Employee.
-<Details> 
-	<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
-	<ul>
-		<br />
-		<li> A Field with a Type of <code>String</code> named <code>employeeIdentificationNumber</code>. Give this a Getter/Setter. </li>
-		<br />
-		<li> A Field with a Type of <code>Byte</code> named <code>numberOfHoursWorked</code>. Give this a Getter/Setter. </li>
-		<br />
-		<li> A Field with a Type of <code>Double</code> named <code>ratePerHour</code>. Give this a Getter/Setter. </li>
-		<br />
-		<li> A Field with a Type of <code>String</code> named <code>stateName</code>. Give this a Getter/Setter. </li>
-		<br />
-		<li> A Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value in the default constructor, using the <code>ratePerHour</code> and the <code>numberOfHoursWorked</code> as reference. </li>
-		<br />
-		<li> A Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value in the default constructor, using the <code>stateName</code> as reference. </li>
-		<br />
-		<li> A Read Only Field with a Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value in the default constructor, using the <code>payCheck</code> and <code>currentTaxRate</code> as reference. </li>
-		<br />
-	</ul>
-</Details>
+
+	<Details> 
+		<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
+		<ul>
+			<br />
+			<li> A Field with a Type of <code>String</code> named <code>employeeIdentificationNumber</code>. Give this a Getter/Setter. </li>
+			<br />
+			<li> A Field with a Type of <code>Byte</code> named <code>numberOfHoursWorked</code>. Give this a Getter/Setter. </li>
+			<br />
+			<li> A Field with a Type of <code>Double</code> named <code>ratePerHour</code>. Give this a Getter/Setter. </li>
+			<br />
+			<li> A Field with a Type of <code>String</code> named <code>stateName</code>. Give this a Getter/Setter. </li>
+			<br />
+			<li> A Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value in the default constructor, using the <code>ratePerHour</code> and the <code>numberOfHoursWorked</code> as reference. </li>
+			<br />
+			<li> A Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value in the default constructor, using the <code>stateName</code> as reference. </li>
+			<br />
+			<li> A Read Only Field with a Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value in the default constructor, using the <code>payCheck</code> and <code>currentTaxRate</code> as reference. </li>
+			<br />
+		</ul>
+	</Details>
 
 3. In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages developing on a *Commodore 64*) let's use this site and connect to it's [API service](https://taxee.io/dashboard).
 
