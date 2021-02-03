@@ -8,8 +8,6 @@ Fix this lesson please.
 
 2. It's just bad bro. The person who wrote this genuinely didn't care about the lessons. Almost as if you stole this from the internet, hmmmm.
 
-`Disclaimer`: Any text that looks like `this` is a comment from myself.
-
 -------
 
 For my thoughts on the horrible Original design here is the [Text for that](https://github.com/JonTDean/Lesson10-Is-Horrible/blob/main/OriginalCriticism.md)
@@ -30,21 +28,22 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 2. Inside of `ContractorPayrollDemo/Program.cs` Create a Class called Employee.
 	* Employee Should have the following properties/fields
   
-		* A Field with a Type of **String** named **employeeIdentificationNumber**. Give this a Getter/Setter.
+		* A Field with a Type of `String` named `employeeIdentificationNumber`. Give this a Getter/Setter.
 
-		* A Field with a Type of **Byte** named **numberOfHoursWorked**. Give this a Getter/Setter.
-
-		* A Field with a Type of **Double** named **ratePerHour**. Give this a Getter/Setter.
+		* A Field with a Type of `Byte` named `numberOfHoursWorked`. Give this a Getter/Setter.
 		
-		* A Field with a Type of **String** named **stateName**. Give this a Getter/Setter.
+		* A Field with a Type of `Double` named `ratePerHour`. Give this a Getter/Setter.
 		
-		* A Field with a Type of **Double** named **payCheck**. This is set when the **ratePerHour** and the **numberOfHoursWorked** is set.
-
-		* A Read Only Field with a Type of **Float** named **currentTaxRate**. This is set when the **stateName** is set.
+		* A Field with a Type of `String` named `stateName`. Give this a Getter/Setter.
 		
-		* A Read Only Field with a Type of **Float** named **taxAmountTotal**. This is set when the **payCheck** and **currentTaxRate** is set.
+		* A Field with a Type of `Double` named `payCheck`. Set the value in the default constructor, using the `ratePerHour` and the `numberOfHoursWorked` as reference.
 
-3. In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages developing on the *Commodore 64*) let's use this site and connect to it's [API service](https://taxee.io/dashboard).
+		* A Read Only Field with a Type of `Float` named `currentTaxRate`. Set the value in the default constructor, using the `stateName` as reference.
+		
+		* A Read Only Field with a Type of `Float` named `taxAmountTotal`. Set the value in the default constructor, using the `payCheck` and `currentTaxRate` as reference.
+
+
+3. In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages developing on a *Commodore 64*) let's use this site and connect to it's [API service](https://taxee.io/dashboard).
 
 4. Now since this is a Web Development class, learning how to fetch an API should be one of the first things we learn after the basics. If you want to read up on how to retreive data from an exposed API [go here for fetch in .net](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client). Learning to read the documentation is necessary as a developer skill.
 
@@ -69,27 +68,13 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 8. Add the ability to sort the Employees by the following criteria:
 	
 	* Name, sort the employees by alphabetical order.
-			
-		```csharp
-		public Employee[] sortByName(Employee[] employees)
-		```	
 
 	* Total Amount Paid, sort the employees by Highest Total Amount Paid To Lowest Total Amount Paid 
 
-		```csharp
-		public Employee[] sortByTotalAmountPaid(Employee[] employees)
-		```	
 	* Total Hours worked, sort the employees by Highest Total Hours Worked to Lowest Total Hours Worked
-
-		```csharp
-		public Employee[] sortByHoursWorked(Employee[] employees)
-		```
 		
 	* Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid
 	
-		```csharp
-		public Employee[] sortByStateTaxPaid(Employee[] employees)
-		```
 
 9. Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file. 
 
@@ -99,5 +84,5 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 
 	```	
 
-10. Lets call the 4 Sort methods we created  
+10. Lets have the user choose the Sorting method he wants to use to organize his Employees.
 
