@@ -8,6 +8,8 @@ Fix this lesson please.
 
 2. It's just bad bro. The person who wrote this genuinely didn't care about the lessons. Almost as if you stole this from the internet, hmmmm.
 
+3. I've taught third graders that have better writing skills than the creator of this lesson and I.
+
 -------
 
 For my thoughts on the horrible Original design here is the [Text for that](https://github.com/JonTDean/Lesson10-Is-Horrible/blob/main/OriginalCriticism.md)
@@ -57,6 +59,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 			<p>In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages developing on a *Commodore 64*) let's use this site and connect to it's [API service](https://taxee.io/dashboard).</p>
 		</li>
 		<br/>
+		<br/>
 		<li>
 			<p>Now since this is a Web Development class, learning how to fetch an API should be one of the first things we learn after the basics. If you want to read up on how to retreive data from an exposed API [go here for fetch in .net](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client). Learning to read the documentation is necessary as a developer skill.</p>
 		</li>
@@ -81,34 +84,39 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 				</ol>
 		</li>
 		<br/>
-### Part 2
+</div>
+<br/>
+<br/>
 
-6. Let's create a new file inside of our project by clicking `add -> New File -> .net CLI` and let's name it *ContractorPayrollDemoSort*.
+<div>
+	<h3> Part 2 </h3>
+	<ol>
+		<br />
+		<li>Let's create a new file inside of our project by clicking `add -> New File -> .net CLI` and let's name it *ContractorPayrollDemoSort*.</li>
+		<br />
+		<li>Let's create a class called *Sort*</li>
+		<br />
+		<li>Add the ability to sort the Employees by the following criteria:
+			<ul>
+				<li> Name, sort the employees by alphabetical order. </li>
+				<br />
+				<li> Total Amount Paid, sort the employees by Highest Total Amount Paid To Lowest Total Amount Paid </li>
+				<br />
+				<li> Total Hours worked, sort the employees by Highest Total Hours Worked to Lowest Total Hours Worked </li>
+				<br />
+				<li> Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid </li>
+			</ul>
+		</li>
+		<br />
+		<li>Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file. </li>
+			<code>
+				<p color="lightblue">using</p> <p color="red">ContractorPayrollDemoSort</p>;
+			</code>	
+		<br />
+		<li>Lets add functionality so the user can pick which sort he wants to use. Let's also give the option to remove the sort.</li>
 
-7. Let's create a class called *Sort* 
-
-8. Add the ability to sort the Employees by the following criteria:
-	
-	* Name, sort the employees by alphabetical order.
-
-	* Total Amount Paid, sort the employees by Highest Total Amount Paid To Lowest Total Amount Paid 
-
-	* Total Hours worked, sort the employees by Highest Total Hours Worked to Lowest Total Hours Worked
-		
-	* Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid
-	
-
-9. Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file. 
-
-	```csharp
-
-	using ContractorPayrollDemoSort;
-
-	```	
-
-10. Lets add functionality so the user can pick which sort he wants to use. Let's also give the option to remove the sort.
-
-EXTRA CREDIT:
+		EXTRA CREDIT:
 
 11. Add functionality to reverse all of the sort methods.
-
+	</ol>
+</div>
