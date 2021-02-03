@@ -25,6 +25,7 @@ Welcome to the Final Project for the Core C# course! Great job making it this fa
 Setup
 
 `So Create a C# Project named FinalProject Or Create a C# Project Named Contractor Payroll??????`
+
 Create a new C# project as you have done throughout this course. Name this project finalProject.
 
 #### Part 1
@@ -61,7 +62,7 @@ Create a program named ContractorPayrollDemo2 so that after the initial 10 Emplo
 
 ----------
 
-### Revised
+### Revised - AN ACTUAL SOFTWARE DESIGN SHEET
 
 #### Part 1 : Abysmal Mess
 
