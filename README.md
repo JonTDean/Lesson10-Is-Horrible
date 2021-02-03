@@ -108,10 +108,11 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 			</ul>
 		</li>
 		<br />
-		<li>Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file. </li>
-			<code>
-				<p color="lightblue">using</p> <p color="red">ContractorPayrollDemoSort</p>;
-			</code>	
+		<li>
+			<p>Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file.</p>
+			<br />
+			<code><p color="lightblue">using</p> <p color="red">ContractorPayrollDemoSort</p></code>
+		</li>
 		<br />
 		<li>Lets add functionality so the user can pick which sort he wants to use. Let's also give the option to remove the sort.</li>
 
