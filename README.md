@@ -84,5 +84,9 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 
 	```	
 
-10. Lets have the user choose the Sorting method he wants to use to organize his Employees.
+10. Lets add functionality so the user can pick which sort he wants to use. Let's also give the option to remove the sort.
+
+EXTRA CREDIT:
+
+11. Add functionality to reverse all of the sort methods.
 
