@@ -32,7 +32,9 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 			<Details> 
 		</li>
 		<br/>
+		<br/>
 		<li> Inside of <code>ContractorPayrollDemo/Program.cs</code> Create a Class called <code>Employee</code>.
+			<br/>
 			<Details> 
 				<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
 				<ul>
@@ -58,7 +60,6 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		<li> 
 			<p>In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages) let's use an API and connect to it: <a href="https://taxee.io/dashboard">Taxee API service</a>.</p>
 		</li>
-		<br/>
 		<br/>
 		<li>
 			<p>Now since this is a Web Development class, learning how to fetch an API should be one of the first things we learn after the basics. If you want to read up on how to retreive data from an exposed API <a href="https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client">go here for fetch in .net</a>. Learning to read the documentation is necessary as a developer skill.</p>
