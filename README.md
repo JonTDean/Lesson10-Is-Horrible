@@ -35,19 +35,19 @@ For my thoughts on the horrible original design here is the <a href="https://git
 				<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
 				<ul>
 					<br />
-					<li> A Field with a Type of <code>String</code> named <code>employeeIdentificationNumber</code>. Give this a Getter/Setter. </li>
+					<li> A Public Static Field with a Type of <code>String</code> named <code>employeeIdentificationNumber</code>. Give this a Getter/Setter. </li>
 					<br />
-					<li> A Field with a Type of <code>Byte</code> named <code>numberOfHoursWorked</code>. Give this a Getter/Setter. </li>
+					<li> A Public Static Field with a Type of <code>Byte</code> named <code>numberOfHoursWorked</code>. Give this a Getter/Setter. </li>
 					<br />
-					<li> A Field with a Type of <code>Double</code> named <code>ratePerHour</code>. Give this a Getter/Setter. </li>
+					<li> A Public Static Field with a Type of <code>Double</code> named <code>ratePerHour</code>. Give this a Getter/Setter. </li>
 					<br />
-					<li> A Field with a Type of <code>String</code> named <code>stateName</code>. Give this a Getter/Setter. </li>
+					<li> A Public Static Field with a Type of <code>String</code> named <code>stateName</code>. Give this a Getter/Setter. </li>
 					<br />
-					<li> A Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value at instantiation, using the product of <code>ratePerHour</code> and the <code>numberOfHoursWorked</code>. </li>
+					<li> A Public Static Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value at instantiation, using the product of <code>ratePerHour</code> and the <code>numberOfHoursWorked</code>. </li>
 					<br />
-					<li> A Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value at instantiation, using the <code>stateName</code> to refer to the API from Taxee. </li>
+					<li> A Public Static Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value at instantiation, using the <code>stateName</code> to refer to the API from Taxee. </li>
 					<br />
-					<li> A Read Only Field with a Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value at instantiation, use the product of <code>payCheck</code> and <code>currentTaxRate</code>. </li>
+					<li> A Public Static Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value at instantiation, use the product of <code>payCheck</code> and <code>currentTaxRate</code>. </li>
 					<br />
 				</ul>
 			</Details>
