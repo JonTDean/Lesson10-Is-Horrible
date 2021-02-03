@@ -1,20 +1,16 @@
 # To Whomever is Reading this
 
-Fix this lesson for all that is holy. 
-
-<ins>Reasons Why</ins>:
-
-1. Everytime I read this lesson I question my existence.
-
-2. It's just bad bro. The person who wrote this genuinely didn't care about the lessons. Almost as if you stole this from the internet, hmmmm.
-
-3. I've taught third graders that have better writing skills than the creator of this lesson and I.
-
--------
+<Details> <Summary>Read this if you're from Woz-U</Summary>
+	<p>Fix this lesson for all that is holy</p>
+	<ins>Reasons Why</ins>:
+	<ol>
+		<li> Everytime I read this lesson I question my existence. </li>
+		<li>It's just bad bro. The person who wrote this genuinely didn't care about the lessons. Almost as if you stole this from the internet, hmmmm.</li>
+		<li>I've taught third graders that have better writing skills than the creator of this lesson and I.</li>
+	</ol>
+</Details>
 
 For my thoughts on the horrible Original design here is the [Text for that](https://github.com/JonTDean/Lesson10-Is-Horrible/blob/main/OriginalCriticism.md)
-
-----------
 
 <h1>Lesson 10 Final Project</h1>
 
@@ -85,7 +81,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 				</ol>
 		</li>
 </div>
-<br />
+<hr />
 <div className="Part_Two">
 	<h3><ins>Part 2 : Undoing the Abysmal Mess Electric Boogaloo</ins></h3>
 	<ol>
