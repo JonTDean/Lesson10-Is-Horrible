@@ -47,7 +47,7 @@ For my thoughts on the horrible original design here is the <a href="https://git
 					<br />
 					<li> A Public Static Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value at instantiation, using the <code>stateName</code> to refer to the API from Taxee. </li>
 					<br />
-					<li> A Public Static Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value at instantiation, use the product of <code>payCheck</code> and <code>currentTaxRate</code>. </li>
+					<li> A Public Static Type of <code>Double</code> named <code>taxAmountTotal</code>. Set the value at instantiation, use the product of <code>payCheck</code> and <code>currentTaxRate</code>. </li>
 					<br />
 				</ul>
 			</Details>
