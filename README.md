@@ -14,65 +14,73 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 
 ----------
 
-# Lesson 10 Final Project
+<h1>Lesson 10 Final Project</h1>
 
+<h2> Revised - AN ACTUAL SOFTWARE DESIGN SHEET </h2>
 
-## Revised - AN ACTUAL SOFTWARE DESIGN SHEET
-
-### Part 1 : Abysmal Mess
-
-1. Create a Program Named *FinalProject*. Rename the File to *ContractorPayrollDemo*. Rename the Class *FinalProject* to *ContractorPayrollDemo*
-	<Details> 
-		<Summary> Image describing what is being asked. </Summary>
-			<img src="https://i.imgur.com/EyaFG7m.png" />
-	<Details> 
-
-2. Inside of `ContractorPayrollDemo/Program.cs` Create a Class called Employee.
-
-	<Details> 
-		<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
-		<ul>
-			<br />
-			<li> A Field with a Type of <code>String</code> named <code>employeeIdentificationNumber</code>. Give this a Getter/Setter. </li>
-			<br />
-			<li> A Field with a Type of <code>Byte</code> named <code>numberOfHoursWorked</code>. Give this a Getter/Setter. </li>
-			<br />
-			<li> A Field with a Type of <code>Double</code> named <code>ratePerHour</code>. Give this a Getter/Setter. </li>
-			<br />
-			<li> A Field with a Type of <code>String</code> named <code>stateName</code>. Give this a Getter/Setter. </li>
-			<br />
-			<li> A Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value in the default constructor, using the <code>ratePerHour</code> and the <code>numberOfHoursWorked</code> as reference. </li>
-			<br />
-			<li> A Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value in the default constructor, using the <code>stateName</code> as reference. </li>
-			<br />
-			<li> A Read Only Field with a Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value in the default constructor, using the <code>payCheck</code> and <code>currentTaxRate</code> as reference. </li>
-			<br />
-		</ul>
-	</Details>
-
-3. In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages developing on a *Commodore 64*) let's use this site and connect to it's [API service](https://taxee.io/dashboard).
-
-4. Now since this is a Web Development class, learning how to fetch an API should be one of the first things we learn after the basics. If you want to read up on how to retreive data from an exposed API [go here for fetch in .net](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client). Learning to read the documentation is necessary as a developer skill.
-
-5. The User Story (flow of the programs actions, when someone is using the Application) should perform like this.
-
-	<Details> 
-		<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
-		<ol>
-			<br />
-			<li> Start Application </li>
-			<br />
-			<li> Ask the user to Create an Employee 10 times and to fill out the Requested Information. </li>
-			<br />
-			<li> Allow the user to pick which Employee to display. </li> 
-				<ul> 
-					<li>We can do the Employee Display with a technique called Pagination using the <a href="https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/return-or-skip-elements-in-a-sequence?redirectedfrom=MSDN">.Skip() and .Take()</a> Methods </li>
+<div className="Part_One">
+	<h3>Part 1 : Abysmal Mess</h3>
+	<br/>
+	<ol>
+		<li> 
+		<p>Create a Program Named <code>FinalProject</code>. Rename the File to <code>ContractorPayrollDemo</code>. Rename the Class <code>FinalProject</code> to <code>ContractorPayrollDemo</code></p>
+			<Details> 
+				<Summary> Image describing what is being asked. </Summary>
+					<img src="https://i.imgur.com/EyaFG7m.png" />
+			<Details> 
+		</li>
+		<br/>
+		<li> Inside of <code>ContractorPayrollDemo/Program.cs</code> Create a Class called <code>Employee</code>.
+			<Details> 
+				<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
+				<ul>
+					<br />
+					<li> A Field with a Type of <code>String</code> named <code>employeeIdentificationNumber</code>. Give this a Getter/Setter. </li>
+					<br />
+					<li> A Field with a Type of <code>Byte</code> named <code>numberOfHoursWorked</code>. Give this a Getter/Setter. </li>
+					<br />
+					<li> A Field with a Type of <code>Double</code> named <code>ratePerHour</code>. Give this a Getter/Setter. </li>
+					<br />
+					<li> A Field with a Type of <code>String</code> named <code>stateName</code>. Give this a Getter/Setter. </li>
+					<br />
+					<li> A Field with a Type of <code>Double</code> named <code>payCheck</code>. Set the value in the default constructor, using the <code>ratePerHour</code> and the <code>numberOfHoursWorked</code> as reference. </li>
+					<br />
+					<li> A Read Only Field with a Type of <code>Float</code> named <code>currentTaxRate</code>. Set the value in the default constructor, using the <code>stateName</code> as reference. </li>
+					<br />
+					<li> A Read Only Field with a Type of <code>Float</code> named <code>taxAmountTotal</code>. Set the value in the default constructor, using the <code>payCheck</code> and <code>currentTaxRate</code> as reference. </li>
+					<br />
 				</ul>
-			<br />
-			<li> Display the Employee Information when the User gives a Selection. </li>
-			<br />
-		</ol>
-	
+			</Details>
+		</li>
+		<br/>
+		<li> 
+			<p>In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages developing on a *Commodore 64*) let's use this site and connect to it's [API service](https://taxee.io/dashboard).</p>
+		</li>
+		<br/>
+		<li>
+			<p>Now since this is a Web Development class, learning how to fetch an API should be one of the first things we learn after the basics. If you want to read up on how to retreive data from an exposed API [go here for fetch in .net](https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client). Learning to read the documentation is necessary as a developer skill.</p>
+		</li>
+		<br/>
+		<li>
+			</p>The User Story (flow of the programs actions, when someone is using the Application) should perform like this.</p>
+			<Details> 
+				<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
+				<ol>
+					<br />
+					<li> Start Application </li>
+					<br />
+					<li> Ask the user to Create an Employee 10 times and to fill out the Requested Information. </li>
+					<br />
+					<li> Allow the user to pick which Employee to display. </li> 
+						<ul> 
+							<li>We can do the Employee Display with a technique called Pagination using the <a href="https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/return-or-skip-elements-in-a-sequence?redirectedfrom=MSDN">.Skip() and .Take()</a> Methods </li>
+						</ul>
+					<br />
+					<li> Display the Employee Information when the User gives a Selection. </li>
+					<br />
+				</ol>
+		</li>
+		<br/>
 ### Part 2
 
 6. Let's create a new file inside of our project by clicking `add -> New File -> .net CLI` and let's name it *ContractorPayrollDemoSort*.
