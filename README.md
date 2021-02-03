@@ -89,9 +89,11 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 	<h3> Part 2 </h3>
 	<ol>
 		<br />
-		<li>Let's create a new file inside of our project by clicking <code>add -> New File -> .net CLI</code> and let's name it *ContractorPayrollDemoSort*.</li>
+		<li>Let's create a new file inside of our project by clicking <code>add -> New File -> .net CLI</code> and let's name it <code>ContractorPayrollDemoSort</code>.</li>
 		<br />
-		<li>Let's create a class called <code>Sort</code></li>
+		<br />
+		<li>Let's create a <code>class</code> called <code>Sort</code></li>
+		<br />
 		<br />
 		<li>Add the ability to sort the Employees by the following criteria:
 			<Details> 
@@ -105,7 +107,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 					<br />
 					<li> Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid </li>
 				</ul>
-			</Details
+			</Details>
 		</li>
 		<br />
 		<li>
@@ -113,7 +115,10 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 			<code>using ContractorPayrollDemoSort;</code>
 		</li>
 		<br />
+		<br />
 		<li>Lets add functionality so the user can pick which sort he wants to use. Let's also give the option to remove the sort.</li>
+		<br />
+		<br />
 </div>
 	
 <h3><ins>EXTRA CREDIT</ins></h3>
