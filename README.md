@@ -65,9 +65,9 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		</li>
 		<br/>
 		<li>
-			</p>The User Story (flow of the programs actions, when someone is using the Application) should perform like this.</p>
+			</p>Let's look at The User Story (flow of the programs actions, when someone is using the Application) </p>
 			<Details> 
-				<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
+				<Summary>The User Story should perform like this.</Summary>
 				<ol>
 					<br />
 					<li> Start Application </li>
@@ -83,41 +83,38 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 					<br />
 				</ol>
 		</li>
-		<br/>
 </div>
-<br/>
-<br/>
-
 <div>
 	<h3> Part 2 </h3>
 	<ol>
 		<br />
-		<li>Let's create a new file inside of our project by clicking `add -> New File -> .net CLI` and let's name it *ContractorPayrollDemoSort*.</li>
+		<li>Let's create a new file inside of our project by clicking <code>add -> New File -> .net CLI</code> and let's name it *ContractorPayrollDemoSort*.</li>
 		<br />
-		<li>Let's create a class called *Sort*</li>
+		<li>Let's create a class called <code>Sort</code></li>
 		<br />
 		<li>Add the ability to sort the Employees by the following criteria:
-			<ul>
-				<li> Name, sort the employees by alphabetical order. </li>
-				<br />
-				<li> Total Amount Paid, sort the employees by Highest Total Amount Paid To Lowest Total Amount Paid </li>
-				<br />
-				<li> Total Hours worked, sort the employees by Highest Total Hours Worked to Lowest Total Hours Worked </li>
-				<br />
-				<li> Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid </li>
-			</ul>
+			<Details> 
+				<Summary>Fields and Types of <b>Class</b> <b><i>Sort/i></b> </Summary>
+				<ul>
+					<li> Name, sort the employees by alphabetical order. </li>
+					<br />
+					<li> Total Amount Paid, sort the employees by Highest Total Amount Paid To Lowest Total Amount Paid </li>
+					<br />
+					<li> Total Hours worked, sort the employees by Highest Total Hours Worked to Lowest Total Hours Worked </li>
+					<br />
+					<li> Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid </li>
+				</ul>
+			</Details
 		</li>
 		<br />
 		<li>
 			<p>Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file.</p>
-			<br />
-			<code><p color="lightblue">using</p> <p color="red">ContractorPayrollDemoSort</p></code>
+			<code>using ContractorPayrollDemoSort;</code>
 		</li>
 		<br />
 		<li>Lets add functionality so the user can pick which sort he wants to use. Let's also give the option to remove the sort.</li>
-
-		EXTRA CREDIT:
-
-11. Add functionality to reverse all of the sort methods.
-	</ol>
 </div>
+	
+<h3><ins>EXTRA CREDIT</ins></h3>:
+<p>Add functionality to reverse all of the sort methods.</p>
+
