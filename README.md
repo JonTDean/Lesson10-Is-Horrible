@@ -56,7 +56,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		</li>
 		<br/>
 		<li> 
-			<p>In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages) let's use this site and connect to it's <a href="https://taxee.io/dashboard">API service</a>.</p>
+			<p>In the development field, recreating something that exists is bad practice and only horrible developers would even suggest doing that. Because we are amazing developers (and not savages) let's use an API and connect to it: <a href="https://taxee.io/dashboard">Taxee API service</a>.</p>
 		</li>
 		<br/>
 		<br/>
