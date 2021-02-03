@@ -84,6 +84,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 				</ol>
 		</li>
 </div>
+<br />
 <div>
 	<h3> Part 2 </h3>
 	<ol>
