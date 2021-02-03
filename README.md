@@ -105,11 +105,42 @@ Create a program named ContractorPayrollDemo2 so that after the initial 10 Emplo
 	
 #### Part 2
 
-6. Add the ability to sort the Employees by the following criteria:
-	
-	* Name
-	* Total Amount Paid
-	* Total Hours worked
-	* Total State Tax Paid
+6. Let's create a new file inside of our project by clicking `add -> New File -> .net CLI` and let's name it *ContractorPayrollDemoSort*.
 
+7. Let's create a class called *Sort* 
+
+8. Add the ability to sort the Employees by the following criteria:
+	
+	* Name, sort the employees by alphabetical order.
+			
+		```csharp
+		public Employee[] sortByName(Employee[] employees)
+		```	
+
+	* Total Amount Paid, sort the employees by Highest Total Amount Paid To Lowest Total Amount Paid 
+
+		```csharp
+		public Employee[] sortByTotalAmountPaid(Employee[] employees)
+		```	
+	* Total Hours worked, sort the employees by Highest Total Hours Worked to Lowest Total Hours Worked
+
+		```csharp
+		public Employee[] sortByHoursWorked(Employee[] employees)
+		```
+		
+	* Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid
+	
+		```csharp
+		public Employee[] sortByStateTaxPaid(Employee[] employees)
+		```
+
+9. Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file. 
+
+	```csharp
+
+	using ContractorPayrollDemoSort;
+
+	```	
+
+10. Lets call the 4 Sort methods we created  
 
