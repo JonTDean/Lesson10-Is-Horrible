@@ -116,6 +116,6 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		<li>Lets add functionality so the user can pick which sort he wants to use. Let's also give the option to remove the sort.</li>
 </div>
 	
-<h3><ins>EXTRA CREDIT</ins></h3>:
+<h3><ins>EXTRA CREDIT</ins></h3>
 <p>Add functionality to reverse all of the sort methods.</p>
 
