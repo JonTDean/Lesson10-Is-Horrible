@@ -99,13 +99,13 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 			<Details> 
 				<Summary>Methods of <b>Class</b> <b><i>Sort</i></b> </Summary>
 				<ul>
-					<li> Name, sort the employees by alphabetical order. </li>
+					<li> Name, returns a sorted collection of the employees by alphabetical order. </li>
 					<br />
-					<li> Total Amount Paid, sort the employees by Highest Total Amount Paid To Lowest Total Amount Paid </li>
+					<li> Total Amount Paid, returns a sorted collection of the employees by Highest Total Amount Paid To Lowest Total Amount Paid </li>
 					<br />
-					<li> Total Hours worked, sort the employees by Highest Total Hours Worked to Lowest Total Hours Worked </li>
+					<li> Total Hours worked, returns a sorted collection of the employees by Highest Total Hours Worked to Lowest Total Hours Worked </li>
 					<br />
-					<li> Total State Tax Paid, sort the Employees by Highest Tax Paid to Lowest Tax Paid </li>
+					<li> Total State Tax Paid, returns a sorted collection of the Employees by Highest Tax Paid to Lowest Tax Paid </li>
 				</ul>
 			</Details>
 		</li>
