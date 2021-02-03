@@ -97,7 +97,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		<br />
 		<li>Add the ability to sort the Employees by the following criteria:
 			<Details> 
-				<Summary>Fields and Types of <b>Class</b> <b><i>Sort/i></b> </Summary>
+				<Summary>Fields and Types of <b>Class</b> <b><i>Sort</i></b> </Summary>
 				<ul>
 					<li> Name, sort the employees by alphabetical order. </li>
 					<br />
@@ -111,7 +111,7 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 		</li>
 		<br />
 		<li>
-			<p>Inside of `ContractorPayrollDemo/Program.cs` let's add a using statement to the top of the file.</p>
+			<p>Inside of <code>ContractorPayrollDemo/Program.cs</code> let's add a using statement to the top of the file.</p>
 			<code>using ContractorPayrollDemoSort;</code>
 		</li>
 		<br />
