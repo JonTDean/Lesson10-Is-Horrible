@@ -69,7 +69,7 @@ For my thoughts on the horrible original design here is the <a href="https://git
 					<br />
 					<li> Start Application </li>
 					<br />
-					<li> Ask the user to Create an Employee 10 times and to fill out the Requested Information. </li>
+					<li> Ask the user to Create an Employee and to fill out the Requested Information. The user should be able to do this as many times as they want to. </li>
 					<br />
 					<li> Allow the user to pick which Employee to display. </li> 
 						<ul> 
