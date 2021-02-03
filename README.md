@@ -56,15 +56,22 @@ For my thoughts on the horrible Original design here is the [Text for that](http
 
 5. The User Story (flow of the programs actions, when someone is using the Application) should perform like this.
 
-	1. Start Application
-
-	2. Ask the user to Create an Employee 10 times and to fill out the Requested Information.
-
-	3. Allow the user to pick which Employee to display.
-
-		* We can do the Employee Display with a technique called Pagination using the [.Skip() and .Take()](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/return-or-skip-elements-in-a-sequence?redirectedfrom=MSDN) 
-
-	4. Display the Employee Information when the User gives a Selection.
+	<Details> 
+		<Summary>Fields and Types of <b>Class</b> <b><i>Employee</i></b> </Summary>
+		<ol>
+			<br />
+			<li> Start Application </li>
+			<br />
+			<li> Ask the user to Create an Employee 10 times and to fill out the Requested Information. </li>
+			<br />
+			<li> Allow the user to pick which Employee to display. </li> 
+				<ul> 
+					<li>We can do the Employee Display with a technique called Pagination using the <a href="https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/return-or-skip-elements-in-a-sequence?redirectedfrom=MSDN">.Skip() and .Take()</a> Methods </li>
+				</ul>
+			<br />
+			<li> Display the Employee Information when the User gives a Selection. </li>
+			<br />
+		</ol>
 	
 ### Part 2
 
