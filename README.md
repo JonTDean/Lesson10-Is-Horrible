@@ -13,6 +13,7 @@ Any text that looks like `this` is a comment from myself.
 #### Directions
 
 `Now concerning the "Directions", this can get eliminated completely, it has absolutely nothing to do with the topic at hand. It's quite literally just over-exposition, like this comment.`
+
 Welcome to the Final Project for the Core C# course! Great job making it this far! This Final Project will be different from the Hands-On projects you have previously seen in a couple of different ways. For the Final Project, you will be putting together the numerous topics you have learned into one large project. It is designed to mimic real problems which you may face in your career, so it may be a challenge for you and will also take several hours. Take this project step-by-step and be aware that the project description below is written to be a bit less specific than previous Hands-Ons. The Final Project is supposed to challenge you to do some problem solving to figure out how to accomplish a task. You can always review past lessons or use a Google search if needed. Good luck!
 Setup
 
@@ -40,6 +41,8 @@ Note: You will need to use a state tax calculator to calculate the appropriate s
 
 
 #### Part 2
+
+`Is this really a part? This is sad attempt at trying to implement the algorithm section. This is just sad and lackluster. Fire your curriculum writer they genuinely suck at their job and do not care about the content they put out.`
 
 Create a program named ContractorPayrollDemo2 so that after the initial 10 Employee objects are displayed and they are sorted in order by the amount of their paycheck and total state tax, they are then displayed again.
 
@@ -80,4 +83,14 @@ Create a program named ContractorPayrollDemo2 so that after the initial 10 Emplo
 
 	3. Display the 10 Employees. Allow the user to pick which Employee to display.
 			* We can do the Employee Display with a technique called Pagination using the [.Skip() and .Take](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/return-or-skip-elements-in-a-sequence?redirectedfrom=MSDN) 
+
+#### Part 2
+
+6. Add the ability to sort the Employees by the following criteria:
+	
+	* Name
+	* Total Amount Paid
+	* Total Hours worked
+	* Total State Tax Paid
+
 
