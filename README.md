@@ -10,7 +10,7 @@
 	</ol>
 </Details>
 
-For my thoughts on the horrible Original design here is the [Text for that](https://github.com/JonTDean/Lesson10-Is-Horrible/blob/main/OriginalCriticism.md)
+For my thoughts on the horrible original design here is the <a href="https://github.com/JonTDean/Lesson10-Is-Horrible/blob/main/OriginalCriticism.md">Text for that</a>
 
 <h1>Lesson 10 Final Project</h1>
 
