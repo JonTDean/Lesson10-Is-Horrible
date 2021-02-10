@@ -38,6 +38,6 @@ Note: You will need to use a state tax calculator to calculate the appropriate s
 
 ### Part 2
 
-`Is this really a part? This is sad attempt at trying to implement the algorithm section. This is just sad and lackluster. Fire your curriculum writer they do not care about the content they put out.`
+`Is this really a part? This is a sad attempt at trying to implement the algorithm section. This is just sad and lackluster. Fire your curriculum writer they do not care about the content they put out.`
 
 Create a program named ContractorPayrollDemo2 so that after the initial 10 Employee objects are displayed and they are sorted in order by the amount of their paycheck and total state tax, they are then displayed again.
