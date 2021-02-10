@@ -13,7 +13,7 @@ Create a new C# project as you have done throughout this course. Name this proje
 
 ### Part 1
 
-` This is the most unorganized mess I've ever read. How does the author expect for us to simulate a real world environment if we cannot talk to our client? We're Software Developers not mindreaders. In a real world environment there is a back and forth in order to clarify responsibilities. This is written by someone who has never worked in a professional environment, least of all a Software Development field.`
+` This is the most unorganized mess I've ever read. How does the author expect for us to simulate a real world environment if we cannot talk to our client? In a real world environment there is a back and forth in order to clarify responsibilities. This is written by someone who has never worked in a professional environment, least of all a Software Development field.`
 
 `Where does the person asking us want this? Preference is definitely used here, however in an environment where you are being "professional" following a ruleset in order to have your code be readable is necessary. ESPECIALLY if you have 30 different people writing it. Template programming exists for a reason: https://en.wikipedia.org/wiki/Template_metaprogramming << This increases readability.`
 
